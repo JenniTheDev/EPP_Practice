@@ -89,7 +89,7 @@ double findAverageScore(int numberJudges, int judgeScores[]){
 
     for (int i = 0; i < numberJudges; i++ ){
         total += judgeScores[i];
-        cout << "total" << total << endl;
+        
     }
 
     //Needs to return decimals so I need to divide an int by a double?
